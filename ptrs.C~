@@ -1,0 +1,7 @@
+
+
+main(){
+
+  double* a = new double(2.7);
+  
+}

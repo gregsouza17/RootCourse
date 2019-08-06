@@ -1,0 +1,9 @@
+
+
+
+void expDecay(){
+
+  TFile* fout = new TFile("fout", "RECREATE");
+  
+  
+}

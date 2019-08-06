@@ -1,0 +1,20 @@
+#include <iostream>
+
+
+void f2plot();
+
+void tf2_guesswork(){
+
+  f2plot();
+  
+}
+
+
+void f2plot(){
+
+  TF2* f2 = new TF2("f2", "exp(-x*x - y*y - x*y)",
+		    /*x range*/  -2,2,
+		    /*y range */ -2,2);
+  
+  f2->Draw("surf3");
+}
