@@ -1,0 +1,13 @@
+#include <iostream>
+
+void changeP(double p){
+  p=10.;
+  std::cout << "Inside the Change Instance: " << p << "\n";
+}
+
+int main(){
+  double p(3.1415); //p is created here with value 3.1415
+  std::cout << "Before Change: "<<p << "\n";
+  changeP(p);
+   std::cout << "After Change: "<<p << "\n";
+} //p is destroied here

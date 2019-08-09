@@ -1,0 +1,8 @@
+
+void f1Write(std::string filename);
+void f1Read(std::string filename);
+
+void funcWR(){
+  
+  
+}

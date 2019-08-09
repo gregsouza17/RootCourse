@@ -1,0 +1,12 @@
+#include <iostream>
+
+void main(){
+  double a(2.1); //a is a double
+  double *p_a; //p_a is a pointer to a double
+  p_a=&a; //makes p_a poin to a
+  
+  std::cout << "a is: " << typeof(a) << "\n With value: " <<
+    a <<" \t Stored at: " << &a;
+  
+  
+}

@@ -1,0 +1,6 @@
+void twoFDraw(){
+  double xmin(0.), xmax(10.0);
+  TF1* f1=new f1("f1", "sin(x)/x", xmin, xmax);
+  TF1* f2=new f2("f2", "(cos(x)-1)/x", xmin, xmax);
+  
+}

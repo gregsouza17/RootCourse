@@ -1,0 +1,12 @@
+#include <iostream>
+
+#define N 1000
+
+void tst1(double a[N]);
+void tst2(double *a, int size_a);
+
+int main(void){
+
+  double a[1000];
+  
+}
