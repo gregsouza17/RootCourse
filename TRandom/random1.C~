@@ -1,0 +1,8 @@
+#include <iostream>
+#include "TRandom3.h"
+
+void uniformPrint();
+
+void random1(){
+  
+}

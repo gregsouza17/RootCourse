@@ -1,0 +1,3 @@
+tv__tree = (TTree *)0x7f174862fbc0;
+tv__tree_list->Add(tv__tree);
+tv__tree->Draw("detPhotons/alphaEnergy","","", 150995, 0);

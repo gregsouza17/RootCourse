@@ -1,0 +1,8 @@
+#include <iostream>
+#include <string>
+
+double TotalE_Alpha(std::string filename);
+
+void treeEx1(){
+  
+}

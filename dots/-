@@ -29,3 +29,6 @@ tv__tree_list->Add(tv__tree);
 tv__tree->Draw("detPhotons","alphaEnergy>3.5","", 150995, 0);
 tv__tree->Draw("axisY","alphaEnergy>3.5","", 150995, 0);
 tv__tree->Draw("alphaEnergy","axisY>29.9 && axisY<29.91","", 150995, 0);
+tv__tree = (TTree *)0x7f600005e630;
+tv__tree_list->Add(tv__tree);
+tv__tree->Draw("detPhotons/alphaEnergy","","", 150995, 0);
